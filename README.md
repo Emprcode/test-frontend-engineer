@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-commerce App
 
-## Getting Started
+E-commerce web application built using Next.js. The project utilizes various technologies and tools such as TypeScript, Redux Toolkit, and Tailwind CSS.
 
-First, run the development server:
+## Features
+
+- **Home page:** Lists products and links to navigate around the website.
+- **Cart:** View/Edit/Delete cart items.
+- **Wishlist:** View/Edit/Delete wishlist items.
+- **Filters:** Filter products based on categroies.
+
+#### Running this project locally
+
+To run this project locally, follow these steps:
+
+1. Clone the repository using HTTPS:
+
+```bash
+git clone https://github.com/Emprcode/test-frontend-engineer.git
+```
+
+or
+
+Clone the repository using SSH (if you have set up an SSH key):
+
+```bash
+git clone https://github.com/Emprcode/test-frontend-engineer.git
+```
+
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+## Usage
+
+To start the development server, run the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your web browser and visit `http://localhost:3000` to access the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org): A React framework for building server-rendered applications.
+- [TypeScript](https://www.typescriptlang.org): A typed superset of JavaScript that enhances code quality and developer productivity.
+- [Redux Toolkit](https://redux-toolkit.js.org/): A A powerful state management tool.
+- [ESLint](https://eslint.org): A pluggable JavaScript linter that helps identify and fix common code issues.
+- [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework for building custom user interfaces.
+- [Shadcn UI](https://ui.shadcn.com/): A collection of re-usable components built using Radix UI and Tailwind CSS.
 
-## Learn More
+## Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+The project follows a common folder structure for a Next.js application:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `/components`: Contains reusable React components.
+- `/app`: contains pages route
+- `/public`: Stores static assets such as images and fonts.
+- `/app/globals.css`: Holds global CSS styles and Tailwind CSS configuration.
+- `/redux`: Holds the app states.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Acknowledgements
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Shadcn UI Documentation](https://ui.shadcn.com/docs)
