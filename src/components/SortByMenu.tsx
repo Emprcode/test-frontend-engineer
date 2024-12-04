@@ -1,10 +1,6 @@
 "use client";
 
 import { FC } from "react";
-
-import { buttonVariants } from "./ui/Button";
-import { Icons } from "./Icons";
-import { cn } from "@/lib/utils";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,6 +8,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/DropdownMenu";
+import { buttonVariants } from "./ui/Button";
+import { Icons } from "./Icons";
+import { cn } from "@/lib/utils";
 
 interface SortByMenuProps {}
 
