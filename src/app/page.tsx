@@ -1,3 +1,5 @@
+import Dashboard from "@/components/Dashboard";
+
 export default async function Home() {
   var data: string[] | null = null;
   // try {
@@ -10,5 +12,9 @@ export default async function Home() {
   // } catch (err) {
   //   console.log(err);
   // }
-  return <div className="w-full h-full  bg-slate-50"></div>;
+  return (
+    <div className="w-full h-full  bg-slate-50">
+      <Dashboard />
+    </div>
+  );
 }
