@@ -20,16 +20,13 @@ const Navbar: FC<NavbarProps> = ({}) => {
   const { showCart } = useSelector(selectShop);
   const dispatch = useDispatch();
   return (
-    <div className="fixed top-0 inset-x-0 h-fit  bg-slate-50 border- borde-zinc-300 z-[10] py-4">
+    <div className="fixed top-0 inset-x-0 h-fit  bg-slate-50 border- borde-zinc-300 z-[10] py-4 sm:py-6">
       <nav className="container max-w-7xl h-full mx-auto flex items-center justify-between gap-2">
-        {/* logo */}
         <Link href="/" className="flex gap-2 items-center">
           <p className="text-zinc-900 text-3xl font-medium md:block font-cinzel">
             E-com
           </p>
         </Link>
-
-        {/* search bar */}
 
         <div className="flex justify-around items-center gap-2 sm:gap-6 text-base font-[300]">
           <div
