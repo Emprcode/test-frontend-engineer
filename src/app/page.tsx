@@ -8,6 +8,7 @@ export default async function Home() {
       cache: "no-cache",
     });
     data = await res.json();
+    // console.log(data);
   } catch (err) {
     console.log(err);
   }
